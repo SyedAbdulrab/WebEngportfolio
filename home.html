@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Portfolio's - Syed Abdulrab</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Montserrat", sans-serif;
+        background-color: #f5f5dc; /* Background color changed */
+        margin: 0;
+      }
+
+      td,h3 {
+    padding: 0px; /* Adjust this value to your preference */
+}
+
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        display: flex;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .partition {
+        width: 30%;
+        background-color: #f9f9f9;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .partition h3 {
+        font-size: 20px;
+        color: #333;
+        margin-bottom: 80px;
+      }
+
+      .partition img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .partition img:hover {
+        transform: scale(1.1);
+      }
+
+      .cv {
+        flex-grow: 1;
+        padding: 20px;
+      }
+
+      header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        font-size: 36px;
+        margin: 0;
+      }
+
+      h2 {
+        font-size: 24px;
+        margin: 0;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: center;
+        margin: 20px 0;
+      }
+
+      nav li {
+        display: inline;
+        margin: 0 20px;
+      }
+
+      .main {
+        padding: 20px;
+      }
+
+      section {
+        margin-bottom: 20px;
+      }
+
+      h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+
+      th {
+        background-color: #f5f5f5;
+      }
+
+      .round-image {
+        max-width: 100%;
+        height: auto;
+        border-radius: 50%;
+      }
+
+      figcaption {
+        font-style: italic;
+      }
+
+      hr {
+        border: none;
+        border-top: 1px solid #ddd;
+        margin: 20px 0;
+      }
+
+      footer {
+        text-align: center;
+        font-size: 14px;
+        color: #777;
+      }
+
+      .hover-image {
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Add a smooth transition effect */
+}
+
+/* When hovering over the figure, show the hover image */
+figure:hover .hover-image {
+    opacity: 1;
+}
+
+/* Set the main image to fade out when hovering over the figure */
+figure:hover .main-image {
+    opacity: 0;
+}
+.cooleffect {
+    transition: transform 0.3s ease;
+}
+
+.cooleffect:hover {
+    transform: scale(1.05) translateY(-10px);
+}
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="partition">
+        <!-- Images -->
+        <h3>More CV Templates</h3>
+        <a href="home2.html"
+          ><img src="page2.png" alt="Image 1" width="100%"
+        /></a>
+        <a href="home.html"
+          ><img
+            src="page1.png"
+            alt="Image 2"
+            width="100%"
+            style="margin-top: 10px"
+        /></a>
+      </div>
+      <div class="cv">
+        <header>
+          <h1>Syed Abdulrab</h1>
+          <h2>Undergraduate Software Engineer</h2>
+        </header>
+
+        <div class="main">
+          <section>
+            <h3>Personal Information</h3>
+            <table>
+              <tr>
+                <td>
+                  <figure>
+                    <img
+                      src="me.png"
+                      class="round-image cooleffect"
+                      width="300px"
+                      height="300px"
+                      alt="Syed Abdulrab"
+                    />
+                  </figure>
+                </td>
+                <td>
+                  <ul>
+                    <li>Undergraduate Software Engineer at NUST-SEECS.</li>
+                    <li>Watch enthusiast</li>
+                    <li>Amateur Web Developer</li>
+                    <li>Swing Trader</li>
+                    <li>Online marketing specialist</li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </section>
+
+          <section>
+            <h3>Education</h3>
+            <table>
+              <tr>
+                <td><h4>Bachelors in Software Engineering</h4></td>
+                <td>NUST</td>
+              </tr>
+              <tr>
+                <td><h4>Fsc, Pre Engg.</h4></td>
+                <td>Garrison College For Men, Lahore</td>
+              </tr>
+              <tr>
+                <td><h4>Matriculation</h4></td>
+                <td>LGS Paragon, Lahore</td>
+              </tr>
+            </table>
+          </section>
+          <section>
+            <table>
+              <tr>
+                <td><h3>Who am I?</h3></td>
+                <td>
+                  <ul>
+                    <li><p>I am a homo sapien - male</p></li>
+                    <li>
+                      <p>I am one with my personal legend</p>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </section>
+          <hr />
+          <article>
+            <svg width="200" height="200" viewBox="-100 -100 200 200">
+              <!-- ... SVG content ... -->
+            </svg>
+          </article>
+          <hr />
+          <footer>Copyright &copy; Syed Abdulrab</footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
